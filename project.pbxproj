@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E701E7DA1DF8145E004C7097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E7D91DF8145E004C7097 /* ViewController.swift */; };
+		E701E7DD1DF8145E004C7097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E701E7DB1DF8145E004C7097 /* Main.storyboard */; };
+		E701E7DF1DF8145E004C7097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E701E7DE1DF8145E004C7097 /* Assets.xcassets */; };
+		E701E7E21DF8145E004C7097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E701E7E01DF8145E004C7097 /* LaunchScreen.storyboard */; };
+		E701E7F11DF814B4004C7097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E7EB1DF814B4004C7097 /* AppDelegate.swift */; };
+		E701E7F21DF814B4004C7097 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E7ED1DF814B4004C7097 /* APICall.swift */; };
+		E701E7F71DF8195D004C7097 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E7F51DF8195D004C7097 /* HomeVC.swift */; };
+		E701E7FA1DF82B44004C7097 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E7F91DF82B44004C7097 /* Global.swift */; };
+		E701E7FC1DF83374004C7097 /* StaticClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E7FB1DF83374004C7097 /* StaticClass.swift */; };
+		E701E8001DF84838004C7097 /* LocalizeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E701E7FF1DF84838004C7097 /* LocalizeHelper.m */; };
+		E701E80C1DF84842004C7097 /* ShareAvailibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E8021DF84842004C7097 /* ShareAvailibility.swift */; };
+		E701E80D1DF84842004C7097 /* ShareBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E8031DF84842004C7097 /* ShareBooking.swift */; };
+		E701E80E1DF84842004C7097 /* ShareCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E8041DF84842004C7097 /* ShareCreditCard.swift */; };
+		E701E80F1DF84842004C7097 /* ShareGiftV.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E8051DF84842004C7097 /* ShareGiftV.swift */; };
+		E701E8101DF84842004C7097 /* shareLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E8061DF84842004C7097 /* shareLocation.swift */; };
+		E701E8111DF84842004C7097 /* SharePaypal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E8071DF84842004C7097 /* SharePaypal.swift */; };
+		E701E8121DF84842004C7097 /* SharePlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E8081DF84842004C7097 /* SharePlaces.swift */; };
+		E701E8131DF84842004C7097 /* SharePrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E8091DF84842004C7097 /* SharePrice.swift */; };
+		E701E8141DF84842004C7097 /* shareTreatment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E80A1DF84842004C7097 /* shareTreatment.swift */; };
+		E701E8151DF84842004C7097 /* ShareUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E80B1DF84842004C7097 /* ShareUser.swift */; };
+		E701E8181DF84855004C7097 /* NotificationHendler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701E8171DF84855004C7097 /* NotificationHendler.swift */; };
+		E7E78D8B1DF9160E00A45C67 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7E78D8A1DF9160E00A45C67 /* Localizable.strings */; };
+		E7E78D8C1DF9168300A45C67 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7E78D8E1DF9168300A45C67 /* HomeVC.xib */; };
+		E81415BC3A45050F8886D02C /* Pods_Club_Mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAA6A583F1FAB5E925BD8AD /* Pods_Club_Mobile.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EAA6A583F1FAB5E925BD8AD /* Pods_Club_Mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Club_Mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E535F88AF27556562BFE2E2 /* Pods-Club_Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Club_Mobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-Club_Mobile/Pods-Club_Mobile.release.xcconfig"; sourceTree = "<group>"; };
+		AC0CD86C9819DD30A6F17B54 /* Pods-Club_Mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Club_Mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Club_Mobile/Pods-Club_Mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		E701E7D41DF8145E004C7097 /* Club_Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Club_Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E701E7D91DF8145E004C7097 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E701E7DC1DF8145E004C7097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E701E7DE1DF8145E004C7097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E701E7E11DF8145E004C7097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E701E7E31DF8145E004C7097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E701E7EB1DF814B4004C7097 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E701E7ED1DF814B4004C7097 /* APICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		E701E7F31DF81531004C7097 /* Club-Mobile-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Club-Mobile-PrefixHeader.pch"; sourceTree = "<group>"; };
+		E701E7F51DF8195D004C7097 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		E701E7F91DF82B44004C7097 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		E701E7FB1DF83374004C7097 /* StaticClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticClass.swift; sourceTree = "<group>"; };
+		E701E7FE1DF84838004C7097 /* LocalizeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizeHelper.h; sourceTree = "<group>"; };
+		E701E7FF1DF84838004C7097 /* LocalizeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizeHelper.m; sourceTree = "<group>"; };
+		E701E8021DF84842004C7097 /* ShareAvailibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareAvailibility.swift; sourceTree = "<group>"; };
+		E701E8031DF84842004C7097 /* ShareBooking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareBooking.swift; sourceTree = "<group>"; };
+		E701E8041DF84842004C7097 /* ShareCreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareCreditCard.swift; sourceTree = "<group>"; };
+		E701E8051DF84842004C7097 /* ShareGiftV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareGiftV.swift; sourceTree = "<group>"; };
+		E701E8061DF84842004C7097 /* shareLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shareLocation.swift; sourceTree = "<group>"; };
+		E701E8071DF84842004C7097 /* SharePaypal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharePaypal.swift; sourceTree = "<group>"; };
+		E701E8081DF84842004C7097 /* SharePlaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharePlaces.swift; sourceTree = "<group>"; };
+		E701E8091DF84842004C7097 /* SharePrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharePrice.swift; sourceTree = "<group>"; };
+		E701E80A1DF84842004C7097 /* shareTreatment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shareTreatment.swift; sourceTree = "<group>"; };
+		E701E80B1DF84842004C7097 /* ShareUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareUser.swift; sourceTree = "<group>"; };
+		E701E8171DF84855004C7097 /* NotificationHendler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHendler.swift; sourceTree = "<group>"; };
+		E7E78D8A1DF9160E00A45C67 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E7E78D8D1DF9168300A45C67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HomeVC.xib; sourceTree = "<group>"; };
+		E7E78D8F1DF9184000A45C67 /* Club_Mobile-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Club_Mobile-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E701E7D11DF8145E004C7097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81415BC3A45050F8886D02C /* Pods_Club_Mobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05639E523C8CD0DEA5A12B39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EAA6A583F1FAB5E925BD8AD /* Pods_Club_Mobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEB35220ADAA436F19EEC81E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC0CD86C9819DD30A6F17B54 /* Pods-Club_Mobile.debug.xcconfig */,
+				8E535F88AF27556562BFE2E2 /* Pods-Club_Mobile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E701E7CB1DF8145E004C7097 = {
+			isa = PBXGroup;
+			children = (
+				E701E7D61DF8145E004C7097 /* Club_Mobile */,
+				E701E7D51DF8145E004C7097 /* Products */,
+				BEB35220ADAA436F19EEC81E /* Pods */,
+				05639E523C8CD0DEA5A12B39 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E701E7D51DF8145E004C7097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E701E7D41DF8145E004C7097 /* Club_Mobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E701E7D61DF8145E004C7097 /* Club_Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				E701E7EE1DF814B4004C7097 /* Resources */,
+				E701E7EC1DF814B4004C7097 /* Entities */,
+				E701E7E91DF814B4004C7097 /* Classes */,
+				E701E7D91DF8145E004C7097 /* ViewController.swift */,
+				E701E7DE1DF8145E004C7097 /* Assets.xcassets */,
+				E701E7DB1DF8145E004C7097 /* Main.storyboard */,
+				E701E7E01DF8145E004C7097 /* LaunchScreen.storyboard */,
+				E701E7E31DF8145E004C7097 /* Info.plist */,
+				E701E7F31DF81531004C7097 /* Club-Mobile-PrefixHeader.pch */,
+				E7E78D8F1DF9184000A45C67 /* Club_Mobile-Bridging-Header.h */,
+			);
+			path = Club_Mobile;
+			sourceTree = "<group>";
+		};
+		E701E7E91DF814B4004C7097 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E701E7EA1DF814B4004C7097 /* Appdelegate */,
+				E701E7F41DF81940004C7097 /* HomeVC */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E701E7EA1DF814B4004C7097 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E701E7EB1DF814B4004C7097 /* AppDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		E701E7EC1DF814B4004C7097 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E701E7ED1DF814B4004C7097 /* APICall.swift */,
+				E701E7F91DF82B44004C7097 /* Global.swift */,
+				E701E7FB1DF83374004C7097 /* StaticClass.swift */,
+				E701E8161DF84855004C7097 /* NotificationHandler */,
+				E701E8011DF84842004C7097 /* ShareClass */,
+				E701E7FD1DF84838004C7097 /* Localization */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E701E7EE1DF814B4004C7097 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E701E7EF1DF814B4004C7097 /* Fonts */,
+				E701E7F01DF814B4004C7097 /* Language */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E701E7EF1DF814B4004C7097 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E701E7F01DF814B4004C7097 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				E7E78D8A1DF9160E00A45C67 /* Localizable.strings */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		E701E7F41DF81940004C7097 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				E701E7F51DF8195D004C7097 /* HomeVC.swift */,
+				E7E78D8E1DF9168300A45C67 /* HomeVC.xib */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		E701E7FD1DF84838004C7097 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				E701E7FE1DF84838004C7097 /* LocalizeHelper.h */,
+				E701E7FF1DF84838004C7097 /* LocalizeHelper.m */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		E701E8011DF84842004C7097 /* ShareClass */ = {
+			isa = PBXGroup;
+			children = (
+				E701E8021DF84842004C7097 /* ShareAvailibility.swift */,
+				E701E8031DF84842004C7097 /* ShareBooking.swift */,
+				E701E8041DF84842004C7097 /* ShareCreditCard.swift */,
+				E701E8051DF84842004C7097 /* ShareGiftV.swift */,
+				E701E8061DF84842004C7097 /* shareLocation.swift */,
+				E701E8071DF84842004C7097 /* SharePaypal.swift */,
+				E701E8081DF84842004C7097 /* SharePlaces.swift */,
+				E701E8091DF84842004C7097 /* SharePrice.swift */,
+				E701E80A1DF84842004C7097 /* shareTreatment.swift */,
+				E701E80B1DF84842004C7097 /* ShareUser.swift */,
+			);
+			path = ShareClass;
+			sourceTree = "<group>";
+		};
+		E701E8161DF84855004C7097 /* NotificationHandler */ = {
+			isa = PBXGroup;
+			children = (
+				E701E8171DF84855004C7097 /* NotificationHendler.swift */,
+			);
+			path = NotificationHandler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E701E7D31DF8145E004C7097 /* Club_Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E701E7E61DF8145E004C7097 /* Build configuration list for PBXNativeTarget "Club_Mobile" */;
+			buildPhases = (
+				EC77CF01FE30B42F4CB02F26 /* [CP] Check Pods Manifest.lock */,
+				E701E7D01DF8145E004C7097 /* Sources */,
+				E701E7D11DF8145E004C7097 /* Frameworks */,
+				E701E7D21DF8145E004C7097 /* Resources */,
+				31A1528D2223F598F1EE396B /* [CP] Embed Pods Frameworks */,
+				B12AE58979395AB9546B6236 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Club_Mobile;
+			productName = Club_Mobile;
+			productReference = E701E7D41DF8145E004C7097 /* Club_Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E701E7CC1DF8145E004C7097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Self;
+				TargetAttributes = {
+					E701E7D31DF8145E004C7097 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = H459CHC794;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E701E7CF1DF8145E004C7097 /* Build configuration list for PBXProject "Club_Mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E701E7CB1DF8145E004C7097;
+			productRefGroup = E701E7D51DF8145E004C7097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E701E7D31DF8145E004C7097 /* Club_Mobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E701E7D21DF8145E004C7097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E78D8B1DF9160E00A45C67 /* Localizable.strings in Resources */,
+				E701E7E21DF8145E004C7097 /* LaunchScreen.storyboard in Resources */,
+				E7E78D8C1DF9168300A45C67 /* HomeVC.xib in Resources */,
+				E701E7DF1DF8145E004C7097 /* Assets.xcassets in Resources */,
+				E701E7DD1DF8145E004C7097 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31A1528D2223F598F1EE396B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Club_Mobile/Pods-Club_Mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B12AE58979395AB9546B6236 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Club_Mobile/Pods-Club_Mobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC77CF01FE30B42F4CB02F26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E701E7D01DF8145E004C7097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E701E80C1DF84842004C7097 /* ShareAvailibility.swift in Sources */,
+				E701E7F11DF814B4004C7097 /* AppDelegate.swift in Sources */,
+				E701E8101DF84842004C7097 /* shareLocation.swift in Sources */,
+				E701E8121DF84842004C7097 /* SharePlaces.swift in Sources */,
+				E701E8131DF84842004C7097 /* SharePrice.swift in Sources */,
+				E701E8181DF84855004C7097 /* NotificationHendler.swift in Sources */,
+				E701E8151DF84842004C7097 /* ShareUser.swift in Sources */,
+				E701E7F71DF8195D004C7097 /* HomeVC.swift in Sources */,
+				E701E8141DF84842004C7097 /* shareTreatment.swift in Sources */,
+				E701E8111DF84842004C7097 /* SharePaypal.swift in Sources */,
+				E701E7FC1DF83374004C7097 /* StaticClass.swift in Sources */,
+				E701E7DA1DF8145E004C7097 /* ViewController.swift in Sources */,
+				E701E8001DF84838004C7097 /* LocalizeHelper.m in Sources */,
+				E701E80E1DF84842004C7097 /* ShareCreditCard.swift in Sources */,
+				E701E80F1DF84842004C7097 /* ShareGiftV.swift in Sources */,
+				E701E7FA1DF82B44004C7097 /* Global.swift in Sources */,
+				E701E7F21DF814B4004C7097 /* APICall.swift in Sources */,
+				E701E80D1DF84842004C7097 /* ShareBooking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E701E7DB1DF8145E004C7097 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E701E7DC1DF8145E004C7097 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E701E7E01DF8145E004C7097 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E701E7E11DF8145E004C7097 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E7E78D8E1DF9168300A45C67 /* HomeVC.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7E78D8D1DF9168300A45C67 /* en */,
+			);
+			name = HomeVC.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E701E7E41DF8145E004C7097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Club_Mobile/Club_Mobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E701E7E51DF8145E004C7097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Club_Mobile/Club_Mobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E701E7E71DF8145E004C7097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0CD86C9819DD30A6F17B54 /* Pods-Club_Mobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H459CHC794;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = "Club_Mobile/Club-Mobile-PrefixHeader.pch";
+				INFOPLIST_FILE = Club_Mobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.topstechnology.Club.Club-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E701E7E81DF8145E004C7097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E535F88AF27556562BFE2E2 /* Pods-Club_Mobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H459CHC794;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = "Club_Mobile/Club-Mobile-PrefixHeader.pch";
+				INFOPLIST_FILE = Club_Mobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.topstechnology.Club.Club-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E701E7CF1DF8145E004C7097 /* Build configuration list for PBXProject "Club_Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E701E7E41DF8145E004C7097 /* Debug */,
+				E701E7E51DF8145E004C7097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E701E7E61DF8145E004C7097 /* Build configuration list for PBXNativeTarget "Club_Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E701E7E71DF8145E004C7097 /* Debug */,
+				E701E7E81DF8145E004C7097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E701E7CC1DF8145E004C7097 /* Project object */;
+}
